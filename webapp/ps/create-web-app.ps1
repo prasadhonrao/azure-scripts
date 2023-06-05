@@ -1,5 +1,3 @@
-# doc link - https://docs.microsoft.com/en-us/azure/app-service/samples-powershell
-
 # Create variables
 $webappname = "mywebapp$(Get-Random)"
 $aspname = "aspmywebapp"

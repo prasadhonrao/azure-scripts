@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "eastus2"
+            "value": "uksouth"
         },
         "networkInterfaceName": {
-            "value": "psdemo-win-arm133"
+            "value": "win-arm-vm-nic"
         },
         "networkSecurityGroupName": {
-            "value": "psdemo-win-arm-nsg"
+            "value": "win-arm-vm-nsg"
         },
         "networkSecurityGroupRules": {
             "value": [
@@ -32,7 +32,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "psdemo-win-arm_group_10271518-vnet"
+            "value": "win-arm-vm-vnet"
         },
         "addressPrefixes": {
             "value": [
@@ -50,7 +50,7 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "psdemo-win-arm-ip"
+            "value": "win-arm-vm-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -59,13 +59,13 @@
             "value": "Basic"
         },
         "virtualMachineName": {
-            "value": "psdemo-win-arm"
+            "value": "win-arm-vm"
         },
         "virtualMachineComputerName": {
-            "value": "psdemo-win-arm"
+            "value": "win-arm-vm"
         },
         "virtualMachineRG": {
-            "value": "psdemo-win-arm_group_10271518"
+            "value": "azure-rg"
         },
         "osDiskType": {
             "value": "Premium_LRS"
@@ -74,7 +74,7 @@
             "value": "Standard_D2s_v3"
         },
         "adminUsername": {
-            "value": "demoadmin"
+            "value": "azureuser"
         },
         "adminPassword": {
             "value": null
